@@ -1,11 +1,10 @@
 import React from "react";
-import Nav from "../components/Nav";
+import Layout from "../components/Layout";
 
 export default function PizzasPage() {
   return (
-    <div>
+    <Layout>
       <h1>Pizzas</h1>
-      <Nav />
-    </div>
+    </Layout>
   )
 }

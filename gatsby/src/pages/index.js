@@ -1,12 +1,12 @@
 import React from 'react';
-import { render } from 'react-dom';
-import Nav from '../components/Nav';
+import Layout from '../components/Layout';
 
 export default function HomePage() {
   return (
-    <div>
-      <h1>Home</h1>
-      <Nav/>
-    </div>
+    <Layout>
+      <div>
+        <h1>Home</h1>
+      </div>
+    </Layout>
   )
 }
